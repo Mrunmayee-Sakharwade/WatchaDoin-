@@ -10,10 +10,16 @@
 - Content-based scoring using NLP-like filters
 - Clean and intuitive web UI
 
-## 📊 Power BI Dashboard
+## ## 📊 Power BI Dashboard
 
-The initial analysis and insights were built in Power BI to understand user preferences and platform trends.
+The initial phase of WatchaDoin'? involved analyzing OTT trends using Power BI.
 
+🧠 It includes:
+
+- Content breakdown by platform
+- Genre-wise user engagement
+- Language popularity
+- Mood trends from descriptions
 ## 📁 Folder Structure
 
 ├── app/
@@ -34,7 +40,8 @@ The initial analysis and insights were built in Power BI to understand user pref
 ├── user_data.json
 ├── run.py
 ├── requirements.txt
-├── ott dashboard.pbix
+├── PoerBi Dashboard
+│ └──ott_dashboard.pbix
 └── README.md
 
 
