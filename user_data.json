@@ -1,0 +1,191 @@
+{
+    "mrunmayee": {
+        "favorite_genres": [],
+        "favorite_languages": [],
+        "mood_keywords": [],
+        "platforms": [],
+        "old_recommendations": [
+            {
+                "title": "Durgamati - The Myth",
+                "release_year": 2020,
+                "listed_in": "horror, suspense",
+                "platform": "Amazon Prime"
+            },
+            {
+                "title": "The Priest",
+                "release_year": 2021,
+                "listed_in": "horror, suspense",
+                "platform": "Amazon Prime"
+            },
+            {
+                "title": "Fear Files... Har Mod Pe Darr",
+                "release_year": 2015,
+                "listed_in": "international tv shows, tv horror, tv thrillers",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Horror Story",
+                "release_year": 2013,
+                "listed_in": "horror movies, international movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Karzzzz",
+                "release_year": 2008,
+                "listed_in": "international movies, music & musicals, romantic movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "6-5=2",
+                "release_year": 2014,
+                "listed_in": "horror movies, international movies, thrillers",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Savita Damodar Paranjpe",
+                "release_year": 2018,
+                "listed_in": "horror movies, international movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Ghulam-E-Musthafa",
+                "release_year": 1997,
+                "listed_in": "action & adventure, dramas, international movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Rakkhosh",
+                "release_year": 2019,
+                "listed_in": "horror movies, independent movies, international movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Soni",
+                "release_year": 2018,
+                "listed_in": "dramas, independent movies, international movies",
+                "platform": "Netflix"
+            }
+        ]
+    },
+    "xyz": {
+        "favorite_genres": [],
+        "favorite_languages": [],
+        "mood_keywords": [],
+        "platforms": [],
+        "old_recommendations": []
+    },
+    "abc": {
+        "favorite_genres": [
+            "romatic"
+        ],
+        "favorite_languages": [
+            "india"
+        ],
+        "mood_keywords": [
+            "love"
+        ],
+        "platforms": [
+            "all"
+        ],
+        "old_recommendations": [
+            {
+                "title": "Humko Deewana Kar Gaye",
+                "release_year": 2006,
+                "listed_in": "international movies, music & musicals, romantic movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Raja Hindustani",
+                "release_year": 1996,
+                "listed_in": "dramas, international movies, romantic movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Karthik Calling Karthik",
+                "release_year": 2010,
+                "listed_in": "dramas, international movies, thrillers",
+                "platform": "Netflix"
+            },
+            {
+                "title": "My Love: Six Stories of True Love",
+                "release_year": 2021,
+                "listed_in": "docuseries",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Cappuccino",
+                "release_year": 2017,
+                "listed_in": "comedies, dramas, international movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Ishq Vishk",
+                "release_year": 2003,
+                "listed_in": "comedies, international movies, music & musicals",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Psycho",
+                "release_year": 2020,
+                "listed_in": "horror movies, international movies, thrillers",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Unbroken",
+                "release_year": 2019,
+                "listed_in": "documentaries, international movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Bhasmasur",
+                "release_year": 2017,
+                "listed_in": "dramas, independent movies, international movies",
+                "platform": "Netflix"
+            },
+            {
+                "title": "Baaghi",
+                "release_year": 2016,
+                "listed_in": "action & adventure, international movies",
+                "platform": "Netflix"
+            }
+        ]
+    },
+    "aa": {
+        "favorite_genres": [],
+        "favorite_languages": [],
+        "mood_keywords": []
+    },
+    "yv": {
+        "favorite_genres": [
+            "horror"
+        ],
+        "favorite_languages": [
+            "india"
+        ],
+        "mood_keywords": [
+            "crime"
+        ]
+    },
+    "mi": {
+        "favorite_genres": [
+            "horror"
+        ],
+        "favorite_languages": [
+            "india"
+        ],
+        "mood_keywords": [
+            "crime"
+        ]
+    },
+    "miv": {
+        "favorite_genres": [
+            "horror"
+        ],
+        "favorite_languages": [
+            "india"
+        ],
+        "mood_keywords": [
+            "crime"
+        ]
+    }
+}

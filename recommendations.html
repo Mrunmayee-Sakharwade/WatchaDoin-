@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recommendations for {{ username.title() }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f0f4f8;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .recommendation {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .recommendation h3 {
+      margin: 0 0 5px;
+      color: #2c3e50;
+    }
+
+    .recommendation p {
+      margin: 3px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .actions {
+      margin-top: 20px;
+    }
+
+    .actions a {
+      text-decoration: none;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .actions a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hi {{ username.title() }} 👋</h1>
+  <h3>Here are your personalized show recommendations 🎬</h3>
+
+  {% if recommendations %}
+    {% for rec in recommendations %}
+      <div class="recommendation">
+        <h3>{{ rec.title }}</h3>
+        <p><strong>Year:</strong> {{ rec.release_year }}</p>
+        <p><strong>Genres:</strong> {{ rec.listed_in }}</p>
+        <p><strong>Platform:</strong> {{ rec.platform }}</p>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>😕 No content-based recommendations found. Try updating your preferences.</p>
+  {% endif %}
+
+  <div class="actions">
+    <a href="{{ url_for('index') }}">🔙 Back to Home</a>
+    <a href="{{ url_for('preferences', username=username) }}">🔁 Try Again</a>
+  </div>
+
+</body>
+</html>

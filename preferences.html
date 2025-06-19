@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Set Preferences - WatchaDoin'?</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>Hello, <span class="highlight">{{ username.title() }}</span>!</h2>
+
+    {% if existing %}
+      <p>We found your saved preferences. Want to reuse them?</p>
+      <form method="POST" action="{{ url_for('reuse_preferences', username=username) }}">
+        <input type="hidden" name="username" value="{{ username }}">
+        <button type="submit" name="use_previous" value="yes">✅ Use Previous Preferences</button>
+      </form>
+      <p>Or update them below:</p>
+    {% endif %}
+
+    <form method="POST">
+      <label for="genres">🎬 Favorite Genres:</label><br>
+      <input type="text" name="genres" id="genres" placeholder="e.g. drama, thriller" required><br><br>
+
+      <label for="country">🌍 Preferred Languages:</label><br>
+      <input type="text" name="country" id="country" placeholder="e.g. Hindi, English" required><br><br>
+
+      <label for="moods">🧠 Mood Keywords:</label><br>
+      <input type="text" name="moods" id="moods" placeholder="e.g. emotional, dark" required><br><br>
+
+      <label for="platforms">📺 Preferred Platforms:</label><br>
+      <input type="text" name="platforms" id="platforms" placeholder="e.g. Netflix, Hotstar, All" required><br><br>
+
+      <button type="submit">🎯 Save Preferences</button>
+    </form>
+  </div>
+</body>
+</html>
